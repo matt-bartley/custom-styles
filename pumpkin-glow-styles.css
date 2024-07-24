@@ -1,0 +1,26 @@
+.pumpkin__glow {
+  --dark-bg-color: #303033;
+}
+.pumpkin__glow body {
+  background: var(--dark-bg-color);
+}
+.pumpkin__glow .home_bottom {
+  display: none;
+}
+.pumpkin__glow:before {
+  background: none;
+  box-shadow: none;
+}
+.pumpkin__glow .video-bg-image-slider.image-slider .slide-image-link {
+  height: 100vh;
+}
+.pumpkin__glow #top_nav {
+  background: var(--dark-bg-color);
+  color: #fff;
+}
+.pumpkin__glow #top_nav a {
+  color: #cd8d32;
+}
+.pumpkin__glow #top_nav a:hover {
+  color: #fff;
+}
