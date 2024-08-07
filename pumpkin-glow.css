@@ -27,7 +27,7 @@
   color: #cd8d32;
 }
 .pumpkin__glow #top_nav a:hover {
-  color: #fff;
+  color: var(--orange);
 }
 .pumpkin__glow .center__text {
   text-align: center;
