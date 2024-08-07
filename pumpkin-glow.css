@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.pumpkin__glow {
+  --dark-bg-color: #303033;
+  --darkest-bg-color: #1d1d1d;
+  --light-bg-color: #3f3f41;
+  --lightest-bg-color: #4f4f51;
+  --orange: #ffb040;
+}
+.pumpkin__glow body {
+  background: var(--dark-bg-color);
+}
+.pumpkin__glow .home_bottom {
+  display: none;
+}
+.pumpkin__glow:before {
+  background: none;
+  box-shadow: none;
+}
+.pumpkin__glow .video-bg-image-slider.image-slider .slide-image-link {
+  height: 100vh;
+}
+.pumpkin__glow #top_nav {
+  background: var(--dark-bg-color);
+  color: #fff;
+}
+.pumpkin__glow #top_nav a {
+  color: #cd8d32;
+}
+.pumpkin__glow #top_nav a:hover {
+  color: #fff;
+}
+.pumpkin__glow .center__text {
+  text-align: center;
+}
+.pumpkin__glow .custom__font {
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.pumpkin__glow .font-regular {
+  font-weight: 400;
+  font-style: normal;
+}
+.pumpkin__glow .font-semibold {
+  font-weight: 600;
+  font-style: normal;
+}
+.pumpkin__glow .font-bold {
+  font-weight: 700;
+  font-style: normal;
+}
+.pumpkin__glow .font-black {
+  font-weight: 900;
+  font-style: normal;
+}
+.pumpkin__glow .mainSpan {
+  background: black;
+}
+.pumpkin__glow .mainSpan_wrapper_home {
+  background: var(--dark-bg-color);
+}
+.pumpkin__glow #top_nav {
+  background: var(--dark-bg-color);
+  content: 'Pumpkin Glow';
+}
+.pumpkin__glow #searchbox {
+  display: none;
+}
+.pumpkin__glow .slide-image {
+  opacity: 0.4;
+}
+.pumpkin__glow .main__content {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.pumpkin__glow .main__content-wrapper {
+  background: var(--dark-bg-color);
+  padding: 10px 50px;
+}
+.pumpkin__glow .main__content-wrapper h3 {
+  font-size: 2em;
+}
+.pumpkin__glow .main__content-wrapper h4 {
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+.pumpkin__glow .main__content-wrapper p {
+  font-size: 1.2em;
+  line-height: 1.675em;
+}
+.pumpkin__glow .orange__text {
+  color: var(--orange);
+}
+.pumpkin__glow .three__columns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.pumpkin__glow .three__columns .column {
+  width: 30%;
+}
+.pumpkin__glow .four__columns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.pumpkin__glow .four__columns .column {
+  width: 23%;
+}
+.pumpkin__glow .column img {
+  width: 100%;
+  border-radius: 6px;
+}
+.pumpkin__glow .hr__grey {
+  border: 0;
+  height: 1px;
+  background: #8e8e8e;
+  margin: 20px 0;
+}
+.pumpkin__glow .large__text {
+  font-size: 2em !important;
+}
+.pumpkin__glow .light__text {
+  color: #ccc;
+}
+.pumpkin__glow #page_footer {
+  background: #252527;
+}
+.pumpkin__glow #header__logo {
+  margin: 0;
+  position: absolute;
+  top: 15%;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  padding: 0 18%;
+  animation: float 6s ease-out infinite;
+}
+.pumpkin__glow .dark__bg {
+  background: var(--dark-bg-color);
+}
+.pumpkin__glow .light__bg {
+  background: var(--light-bg-color);
+}
+.pumpkin__glow .darkest__bg {
+  background: var(--darkest-bg-color);
+}
+.pumpkin__glow .lightest__bg {
+  background: var(--lightest-bg-color);
+}
+.spacer__100 {
+  height: 100px;
+}
+.spacer__80 {
+  height: 80px;
+}
+.spacer__60 {
+  height: 60px;
+}
+.spacer__40 {
+  height: 40px;
+}
+.spacer__20 {
+  height: 20px;
+}
+.spacer__10 {
+  height: 10px;
+}
+.spacer__5 {
+  height: 5px;
+}
+@keyframes float {
+  0% {
+    /* transform: translatey(0px); */ /* transform: rotateY(0deg); */
+    transform: rotateZ(0deg);
+  }
+  25% {
+    /* transform: translatey(-20px); */ /* transform: rotateY(-10deg); */
+    transform: rotateZ(-1deg);
+  }
+  50% {
+    /* transform: translatey(0px); */ /* transform: rotateY(0deg); */
+    transform: rotateZ(0deg);
+  }
+  75% {
+    /* transform: translatey(20px); */ /* transform: rotateY(10deg); */
+    transform: rotateZ(1deg);
+  }
+  100% {
+    /* transform: translatey(0px); */ /* transform: rotateY(0deg); */
+    transform: rotateZ(0deg);
+  }
+}

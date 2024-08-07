@@ -16,7 +16,7 @@
 }
 .pumpkin__glow #top_nav {
   background: var(--dark-bg-color);
-  color: #fff;
+  content: 'Pumpkin Glow';
 }
 .pumpkin__glow #top_nav a {
   color: #cd8d32;
